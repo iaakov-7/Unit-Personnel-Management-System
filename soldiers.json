@@ -1,17 +1,17 @@
 [
   {
-    "id": 1,
-    "name": "yaakov",
-    "rank": "Private"
-  },
-  {
     "id": 2,
-    "name": "moshe",
+    "name": "stri",
     "rank": "Sergeant"
   },
   {
     "id": 3,
     "name": "david",
     "rank": "Captain"
+  },
+  {
+    "id": 1,
+    "name": "Yaakov",
+    "rank": "Private"
   }
 ]

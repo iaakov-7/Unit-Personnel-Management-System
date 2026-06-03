@@ -1,6 +1,6 @@
 from fastapi import FastAPI,status,HTTPException
 from utils.io import save_to_json,load_from_json
-from utils.helper import find_by_id,Soldier
+from utils.helper import find_by_id,Soldier,SoldierUpdate
 from logger_config import logger
 
 
@@ -20,6 +20,7 @@ def get_all_soldiers():
 def get_soldier_by_id(soldier_id:int):
     logger.info(f"Incoming request: Attempting to fetch soldier with id {soldier_id}")
     soldiers = load_from_json(SOLDIERS_FILE)
+
     soldier = find_by_id(soldiers,soldier_id)
     if not soldier:
         logger.warning(f"Soldier with id {soldier_id} not found")
@@ -41,17 +42,14 @@ def create_soldier(new_soldier:Soldier):
     return {"Message":f"soldier with id {soldier.get('id')} created successfully"}
 
 @app.put("/soldiers/{soldier_id}")
-def update_soldier(soldier_id:int,updated_soldier:Soldier):
+def update_soldier(soldier_id:int,updated_soldier:SoldierUpdate):
     logger.info(f"Incoming request: Attempting to update soldier with id {soldier_id}")
     soldiers = load_from_json(SOLDIERS_FILE)
     soldier = find_by_id(soldiers,soldier_id)
     if not soldier:
         logger.warning(f"Soldier with id {soldier_id} not found")
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=f"Soldier with id {soldier_id} not found ")
-    soldiers.remove(soldier)
-    updated_soldier = updated_soldier.model_dump()
-    updated_soldier["id"] = soldier_id
-    soldiers.append(updated_soldier)
+    soldier.update(updated_soldier.model_dump(exclude_unset=True))
     save_to_json(soldiers,SOLDIERS_FILE)
     logger.info(f"Soldier with id {soldier_id} updated successfully")
     return {"Message":f"soldier with id {soldier_id} updated successfully"} 
