@@ -1,11 +1,15 @@
-from fastapi import FastAPI,status,HTTPException
+from fastapi import FastAPI,status,HTTPException,Request
 from utils.io import save_to_json,load_from_json
 from utils.helper import find_by_id,Soldier,SoldierUpdate
 from logger_config import logger
 
-
-app = FastAPI()
 SOLDIERS_FILE = "soldiers.json"
+app = FastAPI()
+@app.middleware("http")
+async def log_request_midleware(req:Request,call_next):
+     logger.info(f"Incoming request: {req.method} {req.url}")
+     response = await call_next(req)
+     return response
 
 @app.get('/soldiers', status_code=200)
 def get_all_soldiers():

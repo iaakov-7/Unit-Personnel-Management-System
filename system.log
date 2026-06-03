@@ -92,3 +92,24 @@
 2026-06-03 11:56:20,572 | INFO | Soldier with id 1 created successfully
 2026-06-03 11:56:37,270 | INFO | Incoming request: Attempting to create a new soldier
 2026-06-03 11:56:37,271 | ERROR | Soldier with id 1 is already exists
+2026-06-03 12:21:00,674 | INFO | http://127.0.0.1:8000/docs, GET
+2026-06-03 12:21:00,829 | INFO | http://127.0.0.1:8000/favicon.ico, GET
+2026-06-03 12:21:20,350 | INFO | http://127.0.0.1:8000/docs, GET
+2026-06-03 12:21:20,396 | INFO | http://127.0.0.1:8000/favicon.ico, GET
+2026-06-03 12:21:21,478 | INFO | http://127.0.0.1:8000/docs, GET
+2026-06-03 12:21:21,529 | INFO | http://127.0.0.1:8000/favicon.ico, GET
+2026-06-03 12:21:27,468 | INFO | http://127.0.0.1:8000/docs, GET
+2026-06-03 12:21:27,536 | INFO | http://127.0.0.1:8000/favicon.ico, GET
+2026-06-03 12:26:32,321 | INFO | http://127.0.0.1:8000/docs: GET
+2026-06-03 12:26:32,495 | INFO | http://127.0.0.1:8000/openapi.json: GET
+2026-06-03 12:26:39,549 | INFO | http://127.0.0.1:8000/soldiers: GET
+2026-06-03 12:26:39,554 | INFO | Incoming request: Attempting to fetch all soldiers
+2026-06-03 12:26:39,555 | INFO | Read 3 soldiers from list
+2026-06-03 12:27:11,525 | INFO | http://127.0.0.1:8000/soldiers/1: GET
+2026-06-03 12:27:11,527 | INFO | Incoming request: Attempting to fetch soldier with id 1
+2026-06-03 12:27:11,529 | INFO | Read soldier with id 1 
+2026-06-03 12:28:49,627 | INFO | Incoming request: GET http://127.0.0.1:8000/docs
+2026-06-03 12:28:49,726 | INFO | Incoming request: GET http://127.0.0.1:8000/openapi.json
+2026-06-03 12:28:55,436 | INFO | Incoming request: GET http://127.0.0.1:8000/soldiers/1
+2026-06-03 12:28:55,447 | INFO | Incoming request: Attempting to fetch soldier with id 1
+2026-06-03 12:28:55,450 | INFO | Read soldier with id 1 
