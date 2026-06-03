@@ -1,0 +1,72 @@
+2026-06-02 17:48:15,017 | INFO | Soldier with id 1 created successfully
+2026-06-02 17:48:55,702 | INFO | 1 change detected
+2026-06-02 17:48:56,372 | INFO | 1 change detected
+2026-06-02 17:48:56,735 | INFO | 5 changes detected
+2026-06-02 17:49:21,329 | INFO | Soldier with id 1 created successfully
+2026-06-02 17:49:21,385 | INFO | 1 change detected
+2026-06-02 17:49:46,644 | ERROR | Soldier with id 1 is already exists
+2026-06-02 17:49:47,790 | ERROR | Soldier with id 1 is already exists
+2026-06-02 17:51:15,981 | INFO | 1 change detected
+2026-06-02 17:51:16,338 | INFO | 1 change detected
+2026-06-02 17:51:16,740 | INFO | 1 change detected
+2026-06-02 17:51:17,108 | INFO | 1 change detected
+2026-06-02 17:51:17,464 | INFO | 1 change detected
+2026-06-02 17:51:17,834 | INFO | 1 change detected
+2026-06-02 17:51:18,208 | INFO | 1 change detected
+2026-06-02 17:51:18,581 | INFO | 1 change detected
+2026-06-02 17:51:18,938 | INFO | 1 change detected
+2026-06-02 17:51:19,303 | INFO | 1 change detected
+2026-06-02 17:51:19,677 | INFO | 1 change detected
+2026-06-02 17:51:20,036 | INFO | 1 change detected
+2026-06-02 17:51:20,391 | INFO | 1 change detected
+2026-06-02 17:51:20,753 | INFO | 1 change detected
+2026-06-02 19:11:44,036 | WARNING | Soldier with id 1 not found
+2026-06-02 19:11:45,256 | WARNING | Soldier with id 1 not found
+2026-06-02 19:12:48,949 | INFO | Soldier with id 1 updated successfully
+2026-06-02 19:12:50,646 | INFO | Soldier with id 1 updated successfully
+2026-06-02 19:13:28,244 | WARNING | Soldier with id 2 not found
+2026-06-02 19:13:30,562 | WARNING | Soldier with id 2 not found
+2026-06-02 19:13:40,900 | INFO | Soldier with id 1 updated successfully
+2026-06-02 19:14:19,050 | WARNING | Soldier with id 1 not found
+2026-06-02 19:14:20,166 | WARNING | Soldier with id 1 not found
+2026-06-02 19:19:42,134 | INFO | Soldier with id 1 created successfully
+2026-06-02 19:19:43,176 | ERROR | Soldier with id 1 is already exists
+2026-06-02 19:20:04,590 | INFO | Soldier with id 1 deleted successfully
+2026-06-02 19:20:05,690 | WARNING | Soldier with id 1 not found
+2026-06-02 20:49:02,225 | INFO | Soldier with id 1 created successfully
+2026-06-02 20:49:03,281 | ERROR | Soldier with id 1 is already exists
+2026-06-02 20:52:01,570 | INFO | Soldier with id 1 deleted successfully
+2026-06-02 20:52:03,489 | WARNING | Soldier with id 1 not found
+2026-06-02 20:57:49,686 | INFO | Soldier with id 1 created successfully
+2026-06-02 20:57:50,896 | ERROR | Soldier with id 1 is already exists
+2026-06-02 21:00:22,912 | INFO | Soldier with id 1 created successfully
+2026-06-02 21:00:24,052 | ERROR | Soldier with id 1 is already exists
+2026-06-02 21:16:29,758 | INFO | Soldier with id 1 created successfully
+2026-06-02 21:16:30,823 | ERROR | Soldier with id 1 is already exists
+2026-06-02 21:16:34,949 | ERROR | Soldier with id 1 is already exists
+2026-06-02 21:16:36,047 | ERROR | Soldier with id 1 is already exists
+2026-06-02 21:16:36,787 | ERROR | Soldier with id 1 is already exists
+2026-06-02 21:17:41,539 | INFO | Soldier with id 0 created successfully
+2026-06-02 21:17:43,343 | ERROR | Soldier with id 0 is already exists
+2026-06-02 21:23:21,754 | INFO | Soldier with id 4 created successfully
+2026-06-02 21:23:23,769 | ERROR | Soldier with id 4 is already exists
+2026-06-02 21:25:30,621 | INFO | Soldier with id 5 created successfully
+2026-06-02 21:26:00,041 | INFO | Soldier with id 5 deleted successfully
+2026-06-02 21:26:16,813 | INFO | Soldier with id 4 deleted successfully
+2026-06-02 21:26:46,198 | INFO | Soldier with id 1 updated successfully
+2026-06-02 21:27:34,014 | ERROR | File is empty
+2026-06-02 21:28:12,862 | WARNING | Soldier with id 1 not found
+2026-06-03 07:16:22,245 | INFO | Incoming request: Attempting to create a new soldier
+2026-06-03 07:16:22,247 | INFO | Soldier with id 1 created successfully
+2026-06-03 07:17:27,450 | INFO | Incoming request: Attempting to delete soldier with id 0
+2026-06-03 07:17:27,451 | WARNING | Soldier with id 0 not found
+2026-06-03 07:17:40,330 | INFO | Incoming request: Attempting to delete soldier with id 1
+2026-06-03 07:17:40,344 | INFO | Soldier with id 1 deleted successfully
+2026-06-03 07:18:05,374 | INFO | Incoming request: Attempting to create a new soldier
+2026-06-03 07:18:05,376 | INFO | Soldier with id 1 created successfully
+2026-06-03 07:20:15,099 | INFO | Incoming request: Attempting to create a new soldier
+2026-06-03 07:20:15,104 | INFO | Soldier with id 2 created successfully
+2026-06-03 07:20:49,996 | INFO | Incoming request: Attempting to create a new soldier
+2026-06-03 07:20:50,000 | INFO | Soldier with id 3 created successfully
+2026-06-03 07:21:04,613 | INFO | Incoming request: Attempting to fetch all soldiers
+2026-06-03 07:21:04,614 | INFO | Read 3 soldiers from list

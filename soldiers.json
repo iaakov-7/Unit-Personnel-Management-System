@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "yaakov",
+    "rank": "Private"
+  },
+  {
+    "id": 2,
+    "name": "moshe",
+    "rank": "Sergeant"
+  },
+  {
+    "id": 3,
+    "name": "david",
+    "rank": "Captain"
+  }
+]
